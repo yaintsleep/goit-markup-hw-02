@@ -3,7 +3,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-
+/*--------- HEADER --------*/
 .first-part {
   font-family: 'Raleway';
   font-weight: 700;
@@ -30,6 +30,9 @@ body {
   color: #212121;
 }
 
+.geolocation,
+.footer-list-tel,
+.footer-list,
 .link {
   text-decoration: none;
 }
@@ -103,7 +106,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+/*---------- ABOUT ----------*/
 .about {
   font-weight: 700;
   font-size: 36px;
@@ -131,6 +134,7 @@ body {
   color: #212121;
 }
 
+/*------- FOOTER ---------*/
 .footer {
   background-color: rgba(47, 48, 58, 1);
 }
@@ -157,4 +161,13 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.geolocation:hover,
+.geolocation:focus,
+.footer-list-mail:hover,
+.footer-list-mail:focus,
+.footer-list-tel:hover,
+.footer-list-tel:focus {
+  color: #2196f3;
 }
