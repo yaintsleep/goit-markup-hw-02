@@ -57,6 +57,7 @@ body {
   color: #2196f3;
 }
 
+.list,
 .nav-list,
 .about-list,
 .benefits-list,
@@ -217,3 +218,26 @@ body {
 }
 
 /*------- PORTFOLIO ---------*/
+
+/*------ PORTFOLIO-HERO -------*/
+
+.hero-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: #ffffff;
+}
+
+.options-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+
+.options-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
